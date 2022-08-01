@@ -1,5 +1,6 @@
 # Data source
-367 accessions vcf      /home/wuyaoyao/03-Solanaceae/SolEvo_Paper/08_Deleterious/02_RareAllele/01_VCF/DMV6_chr*_GATKFilterd.snp_367MR0.5.recode.vcf
+367 accessions vcf
+/home/wuyaoyao/03-Solanaceae/SolEvo_Paper/08_Deleterious/02_RareAllele/01_VCF/DMV6_chr*_GATKFilterd.snp_367MR0.5.recode.vcf
 
 C151    /home/huyong/tmp/yunnan/05_C151/01_parent/ACIP151_H7VGJALXX_L1_1.clean.fq.gz
                 /home/huyong/tmp/yunnan/05_C151/01_parent/ACIP151_H7VGJALXX_L1_2.clean.fq.gz
