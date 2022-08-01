@@ -1,27 +1,27 @@
 # Data source
-367 accessions vcf
+367 accessions vcf: 
 /home/wuyaoyao/03-Solanaceae/SolEvo_Paper/08_Deleterious/02_RareAllele/01_VCF/DMV6_chr*_GATKFilterd.snp_367MR0.5.recode.vcf
 
-C151
+C151: 
 /home/huyong/tmp/yunnan/05_C151/01_parent/ACIP151_H7VGJALXX_L1_1.clean.fq.gz
 /home/huyong/tmp/yunnan/05_C151/01_parent/ACIP151_H7VGJALXX_L1_2.clean.fq.gz
 
-A626
+A626: 
 /vol3/agis/huangsanwen_group/tangdie/data/07_A157-22-3-42-40/wgs/A6-26_1.clean.fq.gz
 /vol3/agis/huangsanwen_group/tangdie/data/07_A157-22-3-42-40/wgs/A6-26_2.clean.fq.gz
 
-E463
+E463: 
 /public/agis/huangsanwen_group/zhangchunzhi/paper/02_inbreds_F1/01_dele_substitutions/reads/E454-2-77-18_BDSW192019661-1a/E4-63_1.clean.fq.gz
 /public/agis/huangsanwen_group/zhangchunzhi/paper/02_inbreds_F1/01_dele_substitutions/reads/E454-2-77-18_BDSW192019661-1a/E4-63_2.clean.fq.gz
 
-RH
+RH: 
 /vol3/agis/huangsanwen_group/wangpei/vol2_data/01_ng_backup/01_parent/RH_10G_1.fq.gz
 /vol3/agis/huangsanwen_group/wangpei/vol2_data/01_ng_backup/01_parent/RH_10G_2.fq.gz
 
-C10-20
+C10-20: 
 ncbi download SRR12791373
 
-E8669
+E8669: 
 Baidu Netdisk download from XiuHan Jiang
 
 
