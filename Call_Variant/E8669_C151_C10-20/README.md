@@ -1,4 +1,4 @@
-# Data source
+## Data source
 367 accessions vcf: 
 /home/wuyaoyao/03-Solanaceae/SolEvo_Paper/08_Deleterious/02_RareAllele/01_VCF/DMV6_chr*_GATKFilterd.snp_367MR0.5.recode.vcf
 
@@ -27,8 +27,8 @@ Baidu Netdisk download from XiuHan Jiang
 
 
 
-# Code and results
-## C151, A626, E463, RH, C10-20, E8669 Call SNP
+## Code and results
+### C151, A626, E463, RH, C10-20, E8669 Call SNP
 /home/huyong/SolanaceaeGenomeAnalyze/Call_Variant/final_RH_E8669_C151_C10-20_NGS/A626/work.sh
 /home/huyong/SolanaceaeGenomeAnalyze/Call_Variant/final_RH_E8669_C151_C10-20_NGS/A626/DM_A626_NGS_chr*.g.vcf
 
@@ -48,17 +48,17 @@ Baidu Netdisk download from XiuHan Jiang
 /home/huyong/SolanaceaeGenomeAnalyze/Call_Variant/final_RH_E8669_C151_C10-20_NGS/RH/DM_RH_NGS_chr*.g.vcf
 
 
-## get SNP
+### get SNP
 /home/huyong/SolanaceaeGenomeAnalyze/Call_Variant/final_RH_E8669_C151_C10-20_NGS/gvcf_merge/get_snps/con.sh
 /home/huyong/SolanaceaeGenomeAnalyze/Call_Variant/final_RH_E8669_C151_C10-20_NGS/gvcf_merge/get_snps/DM_*_NGS_chr*.snps.sort.gvcf.gz
 
 
-## C151, A626, E463, RH, C10-20, E8669 gvcf merge and filter
+### C151, A626, E463, RH, C10-20, E8669 gvcf merge and filter
 /home/huyong/SolanaceaeGenomeAnalyze/Call_Variant/final_RH_E8669_C151_C10-20_NGS/gvcf_merge/merge.sh
 /home/huyong/SolanaceaeGenomeAnalyze/Call_Variant/final_RH_E8669_C151_C10-20_NGS/gvcf_merge/chr*_merge_filter.vcf
 
 
-## merge with 367 accessions vcf
+### merge with 367 accessions vcf
 /home/huyong/SolanaceaeGenomeAnalyze/Call_Variant/final_RH_E8669_C151_C10-20_NGS/gvcf_merge/merge_367_missing_noindel/merge.sh
 /home/huyong/SolanaceaeGenomeAnalyze/Call_Variant/final_RH_E8669_C151_C10-20_NGS/gvcf_merge/merge_367_missing_noindel/chr*_merge_missing.vcf
 
