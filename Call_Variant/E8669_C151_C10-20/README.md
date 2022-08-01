@@ -1,3 +1,4 @@
+# ShenZhen HPC path
 ## Data source
 367 accessions vcf: 
 /home/wuyaoyao/03-Solanaceae/SolEvo_Paper/08_Deleterious/02_RareAllele/01_VCF/DMV6_chr*_GATKFilterd.snp_367MR0.5.recode.vcf
