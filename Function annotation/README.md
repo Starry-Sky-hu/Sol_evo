@@ -2,6 +2,7 @@ Function annotation by interproscan, Arabidopsis and SwissProt
 
 # Run
 sh makedb.sh
+
 sh con.sh
 
 ### makedb.sh
