@@ -1,11 +1,11 @@
 
 
 # Pipeline
-sh raw_data_filter.sh
-sh HaplotypeCaller.sh
-sh gvcf_merge.sh
-sh GATK_hardfilter.sh
-sh vcftools_filter.sh
+1. raw_data_filter.sh
+2. HaplotypeCaller.sh
+3. gvcf_merge.sh
+4. GATK_hardfilter.sh
+5. vcftools_filter.sh
 
 
 ### raw_data_filter.sh
