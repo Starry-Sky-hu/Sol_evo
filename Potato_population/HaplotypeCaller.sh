@@ -1,4 +1,4 @@
-for i in $(cat Landrace187_Cando45.txt)
+for i in $(cat Landrace.txt)
 do
    mkdir ${i}
    fq=($(ls ../clean_data/${i}/*gz))
