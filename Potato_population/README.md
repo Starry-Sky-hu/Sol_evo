@@ -7,7 +7,7 @@ Potato population call variants pipeline
 3. gvcf_merge.sh
 4. GATK_hardfilter.sh
 5. vcftools_filter.sh
-
+6. genotype_freq.sh
 
 ### raw_data_filter.sh
 raw data filter by fastp
@@ -23,5 +23,5 @@ vcftools filter, parameter："--minDP 4 --maxDP 100 --minGQ 10 --minQ 30 --max-m
 ID of all accessions
 ### tetraploid
 call variants pipeline of tetraploid
-
-
+### genotype_freq.sh
+calculate heterozygosity rate
