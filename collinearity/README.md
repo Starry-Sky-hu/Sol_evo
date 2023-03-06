@@ -1,4 +1,5 @@
-
+# run genetribe
+sh con.sh
 
 #stat Proportion of syntenic gene pairs 
 
