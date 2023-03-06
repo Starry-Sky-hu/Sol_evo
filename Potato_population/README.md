@@ -20,7 +20,7 @@ GATK hardfilter
 vcftools filter, parameter："--minDP 4 --maxDP 100 --minGQ 10 --minQ 30 --max-missing 0.5 --maf 0.001"
 ### Landrace_187_Add6Accession.txt
 ID of all accessions
-
-
+### tetraploid
+call variants pipeline of tetraploid
 
 
