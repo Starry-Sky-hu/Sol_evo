@@ -2,9 +2,9 @@
 sh con.sh
 
 
-## genetribe.sh
-it is a template
-## con.sh 
-
-## list
-name list of species
+### genetribe.sh
+It is a template
+### con.sh 
+Build script of every species by genetribe.sh
+### list
+Name list of species
