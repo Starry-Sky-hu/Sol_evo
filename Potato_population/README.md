@@ -1,6 +1,7 @@
 
 
 # Pipeline
+Potato population call variants pipeline
 1. raw_data_filter.sh
 2. HaplotypeCaller.sh
 3. gvcf_merge.sh
