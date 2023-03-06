@@ -14,19 +14,19 @@
 # @Description:
 ##################################################################
 
-#for i in $(cat list)
-#do
-#   mkdir ${i}
-#   raw=($(ls ../raw_data/${i}/*gz))
-#   echo """#!/bin/bash
-##SBATCH --partition=queue1,low,big
-##SBATCH -N 1
-##SBATCH -c 4
-##SBATCH --qos=queue1
-#source activate annotation_2
-#fastp --detect_adapter_for_pe -w 4 -i ../${raw[0]} -I ../${raw[1]} -o ${i}_clean_1.fq.gz -O ${i}_clean_2.fq.gz --json ${i}_fastp.json --html ${i}_fastp.html""" >> ${i}/${i}_fastp.sh
-#
-#cd ${i}
-#sbatch ${i}_fastp.sh
-#cd ..
-#done
+for i in $(cat list)
+do
+   mkdir ${i}
+   raw=($(ls ../raw_data/${i}/*gz))
+   echo """#!/bin/bash
+#SBATCH --partition=queue1,low,big
+#SBATCH -N 1
+#SBATCH -c 4
+#SBATCH --qos=queue1
+source activate annotation_2
+fastp --detect_adapter_for_pe -w 4 -i ../${raw[0]} -I ../${raw[1]} -o ${i}_clean_1.fq.gz -O ${i}_clean_2.fq.gz --json ${i}_fastp.json --html ${i}_fastp.html""" >> ${i}/${i}_fastp.sh
+
+cd ${i}
+sbatch ${i}_fastp.sh
+cd ..
+done
