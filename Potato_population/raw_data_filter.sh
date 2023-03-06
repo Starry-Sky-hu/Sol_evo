@@ -14,7 +14,7 @@
 # @Description:
 ##################################################################
 
-for i in $(cat list)
+for i in $(cat Landrace_187_Add6Accession.txt)
 do
    mkdir ${i}
    raw=($(ls ../raw_data/${i}/*gz))
