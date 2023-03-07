@@ -1,5 +1,5 @@
-# Run genetribe
-sh con.sh
+# Detection of genomic synteny 
+Run genetribe: sh con.sh
 
 
 ### genetribe.sh
