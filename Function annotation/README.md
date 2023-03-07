@@ -1,6 +1,4 @@
-Function annotation by interproscan, Arabidopsis and SwissProt
-
-# Run
+# Function annotation by interproscan, Arabidopsis and SwissProt
 1. makedb.sh
 2. con.sh
 
