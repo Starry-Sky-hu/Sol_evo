@@ -1,4 +1,8 @@
 
+minimap2 -R '@RG\tID:RH\tSM:RH\tPL:Pacbio\tPU:CCS' -t 52 -ax map-hifi Solanum_tuberosumDM.fa RH.ccs.fastq.gz > DM_v6_RH_aln.sam
+samtools sort DM_v6_RH_aln.sam -O bam -@ 52 -m 2G > DM_v6_RH_aln.sort.bam
+samtools index DM_v6_RH_aln.sort.bam
+
 for i in {01..12}
 do
         echo "bcftools mpileup -X pacbio-ccs -Ou -r chr${i} -f Solanum_tuberosumDM.fa DM_v6_RH_aln.sort.bam | bcftools call -m -Ov -V indels -o DM_v6_RH_chr${i}.gvcf" >> call.sh
