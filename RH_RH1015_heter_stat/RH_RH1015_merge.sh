@@ -38,7 +38,5 @@ for i in {01..12}
 do
     echo "bcftools view -M2 -i'MQ >= 40 && QUAL >=30 && FS < 60' chr${i}_merge.vcf > RH_RH1015_chr${i}_filter.vcf" >> filter.sh
 done
-
 parallel -j 12 < filter.sh
 
-python homo_stat.py RH_RH1015_chr01_filter.vcf RH_RH1015_chr01_filter_error.vcf
