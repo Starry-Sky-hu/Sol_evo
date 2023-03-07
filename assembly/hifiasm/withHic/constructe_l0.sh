@@ -1,4 +1,4 @@
-cp -r hifi_hic_workflow ./${1}_l0
+cp -r hifiasm_l0_hic_workflow ./${1}_l0
 
 cd ${1}_l0
 
