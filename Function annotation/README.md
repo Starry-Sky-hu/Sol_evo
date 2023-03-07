@@ -1,9 +1,8 @@
 Function annotation by interproscan, Arabidopsis and SwissProt
 
 # Run
-sh makedb.sh
-
-sh con.sh
+1. makedb.sh
+2. con.sh
 
 ### makedb.sh
 Build blast database of Arabidopsis and SwissProt
