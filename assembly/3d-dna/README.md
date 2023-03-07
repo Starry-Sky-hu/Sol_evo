@@ -2,5 +2,5 @@
 
 ### 3d-dna_workflow
 Snakemake workflow of scaffolding 
-Scaffolding script is 3d-dna_workflow/rule/04_hic.smk
+### Scaffolding script is 3d-dna_workflow/rule/04_hic.smk
 
