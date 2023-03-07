@@ -6,3 +6,5 @@ Count N50, assembly size, BUSCO etc.
 Count hic base number
 ### hifi_stat.sh
 Count hifi base number
+### busco.sh
+run BUSCO script
