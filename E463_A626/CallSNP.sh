@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --partition=smp01
 #SBATCH -N 1
-#SBATCH -c 24
+#SBATCH -c 52
 #SBATCH -J work_1.sh
 #SBATCH --qos=queue1
 #SBATCH --error=err_%J_work_1.sh
