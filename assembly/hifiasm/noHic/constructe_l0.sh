@@ -1,4 +1,4 @@
-cp -r hifi_assembly_workflow ./${1}_l0
+cp -r hifi_assembly_l0_workflow ./${1}_l0
 
 cd ${1}_l0
 
