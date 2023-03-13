@@ -24,4 +24,6 @@ ID of all accessions
 ### tetraploid
 call variants pipeline of tetraploid
 ### genotype_freq.sh
-calculate heterozygosity rate
+calculate heterozygosity rate by vcf_stat.java
+### vcf_stat.java
+java script of calculate heterozygosity rate
