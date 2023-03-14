@@ -13,9 +13,11 @@ RH1015 minimap2 mapping and bcftools call variant, output both variant and non-v
 ### RH_RH1015_merge.sh
 Merge two vcf files
 ### vcf2gbs.sh
-exclude error sites, and convert vcf format to gbs format using vcf2gbs_chr01.R
+Exclude error sites, and convert vcf format to gbs format using vcf2gbs_chr01.R
 ### RH_RH1015_stat.sh
-Calculate heterozygous
+Calculate heterozygous using sliding_vcf_stat.R
 ### vcf2gbs_chr01.R
-convert vcf format to gbs format.
+Convert vcf format to gbs format.
 Take chromosome 1 as an example, the other chromosomes are the same
+### sliding_vcf_stat.R
+Calculate heterozygous
